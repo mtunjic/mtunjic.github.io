@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[(λove (print (eval (read))))]]></title>
   <link href="http://attractor.github.io/atom.xml" rel="self"/>
   <link href="http://attractor.github.io/"/>
-  <updated>2013-09-20T17:31:15+02:00</updated>
+  <updated>2013-09-20T17:46:27+02:00</updated>
   <id>http://attractor.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Marko Tunjić]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Kako su brstici pobjegli s balkana]]></title>
-    <link href="http://attractor.github.io/blog/2013/09/20/kako-su-brstici-pobjegli-s-balkana/"/>
-    <updated>2013-09-20T17:28:00+02:00</updated>
-    <id>http://attractor.github.io/blog/2013/09/20/kako-su-brstici-pobjegli-s-balkana</id>
-    <content type="html"><![CDATA[<p>Bilo je to u jesn 2012&hellip;</p>
+    <title type="html"><![CDATA[fibs]]></title>
+    <link href="http://attractor.github.io/blog/2013/09/20/fibs/"/>
+    <updated>2013-09-20T17:41:00+02:00</updated>
+    <id>http://attractor.github.io/blog/2013/09/20/fibs</id>
+    <content type="html"><![CDATA[
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>(defn fibs 
+</span><span class='line'>  []
+</span><span class='line'>  (map first
+</span><span class='line'>    (iterate (fn [[a b]] [b (+ a b)]) [0 1])))</span></code></pre></td></tr></table></div></figure>
+
+
+
 ]]></content>
   </entry>
   
